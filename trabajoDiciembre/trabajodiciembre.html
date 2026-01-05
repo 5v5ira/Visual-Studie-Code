@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallumbos Ciruelo - Comodidad que se lleva por dentro</title>
+    <link rel="stylesheet" href="trabajodiciembre.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <div class="logo">🩲</div>
+            <h1>Gallumbos Ciruelo</h1>
+        </div>
+        <p class="eslogan">"Comodidad que se lleva por dentro"</p>
+    </header>
+
+   
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#coleccion">Colección</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main -->
+    <main>
+        <!-- Sección Sobre Nosotros -->
+        <section id="sobre-nosotros" class="sobre-nosotros">
+            <h2>Sobre Gallumbos Ciruelo</h2>
+            <p>
+                <strong>Gallumbos Ciruelo</strong> es una marca española de ropa interior masculina que nace con la misión de revolucionar el concepto de comodidad. Desde nuestros inicios, hemos creído que la ropa interior no es solo una prenda funcional, sino una experiencia que debe acompañar al hombre moderno en cada momento de su día.
+            </p>
+            <p>
+                Nuestros productos están <strong>dirigidos a hombres de todas las edades</strong> que valoran la calidad, el diseño y, sobre todo, la comodidad. Desde el ejecutivo que necesita sentirse seguro en sus reuniones, hasta el deportista que busca máximo rendimiento, pasando por el hombre que simplemente aprecia las cosas bien hechas.
+            </p>
+            <p>
+                Lo que nos diferencia es nuestro <strong>compromiso con la excelencia</strong>: utilizamos únicamente algodón 100% natural de origen español, diseños ergonómicos pensados por expertos y un proceso de fabricación artesanal que garantiza la máxima durabilidad. En Gallumbos Ciruelo no vendemos simple ropa interior, vendemos <span style="font-style: italic;">tranquilidad y confianza</span>.
+            </p>
+        </section>
+
+        <!-- Sección de Productos -->
+        <section id="productos">
+            <h2>Nuestra Colección</h2>
+            <div class="productos-container">
+                <article>
+                    <figure>
+                        <div class="producto-img">🩲</div>
+                        <figcaption>Modelo Clásico</figcaption>
+                    </figure>
+                    <p class="producto-descripcion">
+                        El favorito de siempre. Diseño atemporal con la máxima comodidad. Ideal para el día a día.
+                    </p>
+                    <p class="precio">19,99€</p>
+                </article>
+
+                <article>
+                    <figure>
+                        <div class="producto-img">🏃</div>
+                        <figcaption>Modelo Sport</figcaption>
+                    </figure>
+                    <p class="producto-descripcion">
+                        Tecnología transpirable y ajuste deportivo. Perfecto para entrenar con máximo confort.
+                    </p>
+                    <p class="precio">24,99€</p>
+                </article>
+
+                <article>
+                    <figure>
+                        <div class="producto-img">✨</div>
+                        <figcaption>Modelo Premium</figcaption>
+                    </figure>
+                    <p class="producto-descripcion">
+                        Algodón egipcio de primera calidad. Lujo y sofisticación para ocasiones especiales.
+                    </p>
+                    <p class="precio">34,99€</p>
+                </article>
+
+                <article>
+                    <figure>
+                        <div class="producto-img">🌙</div>
+                        <figcaption>Modelo Confort</figcaption>
+                    </figure>
+                    <p class="producto-descripcion">
+                        Suavidad extrema para el descanso. Tu mejor aliado para relajarte en casa.
+                    </p>
+                    <p class="precio">22,99€</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Sección Destacada -->
+        <aside class="destacada">
+            <h2>¿Por qué elegir Gallumbos Ciruelo?</h2>
+            <div class="ventajas">
+                <div class="ventaja">
+                    <div class="ventaja-icono">🌿</div>
+                    <h3>Algodón 100% Natural</h3>
+                    <p>Materiales de primera calidad, respetuosos con tu piel y el medio ambiente</p>
+                </div>
+                <div class="ventaja">
+                    <div class="ventaja-icono">🎯</div>
+                    <h3>Diseño Ergonómico</h3>
+                    <p>Estudiado para adaptarse perfectamente a tu cuerpo sin restricciones</p>
+                </div>
+                <div class="ventaja">
+                    <div class="ventaja-icono">🇪🇸</div>
+                    <h3>Fabricado en España</h3>
+                    <p>Producción local y artesanal que garantiza la máxima calidad</p>
+                </div>
+            </div>
+        </aside>
+
+        
+        <section id="contacto">
+            <h2>Contacta con Nosotros</h2>
+            <form>
+                <div>
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Escribe tu nombre">
+                </div>
+                
+                <div>
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                </div>
+                
+                <div>
+                    <label for="tipo-consulta">Tipo de consulta:</label>
+                    <select id="tipo-consulta" name="tipo-consulta" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="productos">Información sobre productos</option>
+                        <option value="pedidos">Estado de pedidos</option>
+                        <option value="devoluciones">Devoluciones y cambios</option>
+                        <option value="colaboracion">Colaboración empresarial</option>
+                        <option value="otros">Otros</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required placeholder="Escribe tu consulta aquí..."></textarea>
+                </div>
+                
+                <button type="submit">Enviar Consulta</button>
+            </form>
+        </section>
+    </main>
+
+    
+    <footer>
+        <p>&copy; 2025 Gallumbos Ciruelo - Todos los derechos reservados</p>
+        <p>Comodidad que se lleva por dentro</p>
+    </footer>
+</body>
+</html>
